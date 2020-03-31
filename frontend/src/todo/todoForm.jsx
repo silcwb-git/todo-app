@@ -3,7 +3,7 @@ import Grid from '../template/grid'
 import IconButton from '../template/iconButton'
 
 export default props => (
-    <dif role='form' classname='todoForm' >
+    <dif role='form' className='todoForm' >
         <Grid cols='12 9 10'>
             <input  id='description' className='form-control'
                 placeholder='Adicione uma tarefa'
