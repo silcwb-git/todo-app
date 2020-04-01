@@ -23,8 +23,6 @@ export default class extends Component {
         this.handleMarkAsPending = this.handleMarkAsPending.bind(this)
         this.handleRemove = this.handleRemove.bind(this)
        
-       
-
         this.refresh()
 
     }
