@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import IconButton from '../template/iconButton'
-import { markAsDone } from './todoActions'
-import { markAsPending } from './todoActions'
+import { markAsDone, markAsPending } from './todoActions'
+
 
 const TodoList = props => {
 
